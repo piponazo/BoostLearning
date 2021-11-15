@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Common build directories
+build*
+
+# Vim temporary files
+*.swp
