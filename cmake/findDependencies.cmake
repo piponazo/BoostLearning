@@ -9,8 +9,8 @@ set(Boost_USE_MULTITHREAD ON)
 set(Boost_USE_STATIC_LIBS ON)
 #set(Boost_USE_STATIC_RUNTIME ON)
 set(Boost_NO_SYSTEM_PATHS ON)
-set(Boost_DEBUG ON)
+#set(Boost_DEBUG ON)
 #set(Boost_REALPATH ON)
 
-find_package(Boost REQUIRED COMPONENTS system date_time thread)
+find_package(Boost 1.70 REQUIRED COMPONENTS system date_time thread)
 
