@@ -31,6 +31,9 @@
 *.out
 *.app
 
+# QtCreator temporary files
+CMakeLists.txt.user
+
 # Common build directories
 build*
 
